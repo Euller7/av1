@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    color: #171214;
+    background-color: #CAFAD9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #home {
+    padding: 46px;
+    overflow: hidden;
+    text-align: left;
+    font-family: 'Abel';
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  #home p{
+    text-align: left;
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+  #home img{
+    width: 40%;
+    float: right;  }
+
+  #topo {
+    background-color: #ffffff;
+    padding: 25px;
+    overflow: hidden;
+  
+    font-family: 'Abel';
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  #topo .menu ul {
+    list-style: none;
+  
+    margin: 0;
+    padding: 0;
+  }
+  
+  #topo .menu li {
+    display: inline-block;
+    padding: 20px;
+  }
+
+  #topo .menu img {
+    width: 20px;
+  }
+  
+  .menu ul li a {
+    color: #444;
+  }
+  
+  .menu li a:hover {
+    color: #7622D7;
+  }
+  
+  #topo .logo {
+    float: left;
+    text-transform: capitalize;
+    font-weight: 300;
+  }
+  #topo img {
+    vertical-align: middle;
+  }
+  
+  #topo .menu {
+    float: right;
+  }
+
+  #contato {
+    background-color: #ffffff;
+    font-family: 'Abel';
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  #contato img {
+    width: 20px;
+  }
+
